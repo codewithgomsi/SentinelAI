@@ -17,7 +17,7 @@ Built for hackathons. Premium dark-mode dashboard inspired by Datadog, Grafana, 
 
 | Service   | URL |
 |-----------|-----|
-| Frontend  | _Add after deploy — e.g. `https://sentinelai-frontend.onrender.com`_ |
+| Frontend  | https://sentinelai-frontend-olv3.onrender.com/
 | Backend   | _Add after deploy — e.g. `https://sentinelai-api.onrender.com/api/health`_ |
 
 ---
