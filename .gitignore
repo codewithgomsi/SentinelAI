@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+venv*/
+.env
+*.log
+
+# ML artifacts (rebuilt on deploy)
+model/*.pkl
+
+# Node
+node_modules/
+frontend/dist/
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
