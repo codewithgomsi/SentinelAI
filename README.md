@@ -2,7 +2,7 @@
 
 **AI-Powered DevOps & SRE Command Center** — real-time API monitoring, ML anomaly detection, and cinematic incident response.
 
-Buitl for PROBLEM STATEMENT  4.
+Built for PROBLEM STATEMENT  4.
 
 Built for hackathons. Premium dark-mode dashboard inspired by Datadog, Grafana, and SOC war rooms.
 
