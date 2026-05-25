@@ -93,41 +93,8 @@ Dashboard at **http://localhost:5173**
 
 ---
 
-## Deploy (Fastest — ~5 min setup)
 
-Uses **[Render](https://render.com)** free tier. One Blueprint deploys **both** backend and frontend from this repo.
 
-### Step 1 — Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "SentinelAI — AI DevOps dashboard"
-git branch -M main
-git remote add origin https://github.com/codewithgomsi/SentinelAI.git
-git push -u origin main
-```
-
-> Create the empty repo first on GitHub: [github.com/new](https://github.com/new) → name it `SentinelAI`
-
-### Step 2 — Deploy on Render
-
-1. Go to [render.com](https://render.com) → sign in with GitHub
-2. **New → Blueprint** → select `codewithgomsi/SentinelAI`
-3. Set environment variables:
-
-| Service | Variable | Value |
-|---------|----------|-------|
-| `sentinelai-api` | `CORS_ORIGINS` | `https://sentinelai-frontend.onrender.com` |
-| `sentinelai-frontend` | `VITE_API_URL` | `https://sentinelai-api.onrender.com/api` |
-
-4. Click **Apply** — wait ~5–10 min for first build (ML model trains automatically)
-
-### Step 3 — Update README
-
-Add your live URLs to the **Live Demo** section above and push again.
-
----
 
 ## API Endpoints
 
@@ -146,7 +113,18 @@ Add your live URLs to the **Live Demo** section above and push again.
 
 ## Screenshots
 
-_Add screenshots of Dashboard and AI War Room after deploy._
+<img width="1902" height="903" alt="image" src="https://github.com/user-attachments/assets/6a077d6f-ca47-4cf0-9efa-19421d8aba47" />
+<img width="1518" height="542" alt="image" src="https://github.com/user-attachments/assets/06aa4a25-6c41-484b-892c-00d4774d8279" />
+<img width="1552" height="821" alt="image" src="https://github.com/user-attachments/assets/a48fd070-cb60-4465-8ddf-bfce4b6bef85" />
+<img width="1515" height="787" alt="image" src="https://github.com/user-attachments/assets/5f252e0a-4bb2-4c43-8d98-95102d67a033" />
+<img width="1551" height="867" alt="image" src="https://github.com/user-attachments/assets/7a5bab95-aee1-45b1-8e2f-cadb6fe06736" />
+<img width="1523" height="756" alt="image" src="https://github.com/user-attachments/assets/6d496ed5-28bd-4ca4-b9aa-f5063512b4df" />
+
+
+
+
+
+
 
 ---
 
